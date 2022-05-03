@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+body{
+    scrollbar-track-color: #474747;
+}
+
+.barra{
+    background-color: #181818;
+    color: #f9f9f9;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.jordan{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.fundo{
+    width: 100%;
+    height: 378px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ), url(../img/Mask\ Group.png);
+    background-repeat: no-repeat;
+    color: #ebe9ea; 
+    background-size: cover;
+    background-position: center;
+}
+
+.texto{
+    width: 50%;
+    position: relative;
+   
+    line-height: 30px;
+    font-size: large;
+    top: 50%;
+    right: -10%;
+}
+
+.destaques{
+    text-align: center;
+    line-height:30px;
+    padding-top: 4%;
+    padding-bottom: 5%;
+
+    
+}
+
+.box{
+    background: #bebebe;
+    height: 27vh;
+    width: 20vw;
+
+
+}
+img{
+    position: relative;
+    top: 20%;
+}
+
+.container{
+    width: 88%;
+    
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 50px;
+  
+    
+}
+.barra2{
+    margin-top: 5%;
+    background-color: #181818;
+    color: #f9f9f9;
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+
+
+@media(max-width:1024px){
+
+    .box{
+        background: #bebebe;
+        height: 27vh;
+        width: 40vw;
+    
+    
+    }
+    img{
+        position: relative;
+        top: 20%;
+    }
+    
+    .container{
+        width: 88%;
+        
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 50px;
+      
+        
+    }
+
+}
+
+@media(max-width:445px){
+    .texto{
+        width: 50%;
+        position: relative;
+       
+        line-height: 30px;
+        font-size: large;
+        top: 30%;
+        right: -10%;
+    }
+
+    .destaques{
+        text-align: center;
+        padding-top: 4%;
+        padding-bottom: 5%;
+        margin-left: auto;
+       margin-right: auto;
+
+    
+        
+    }
+
+    img{
+        position: relative;
+        top: 20%;
+    }
+    
+    .container{
+        width: 88%;
+        
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 50px;
+      
+        
+    }
+
+    .box{
+        background: #bebebe;
+        height: 27vh;
+        width: 86vw;
+        text-align: center;
+    
+    
+    }
+
+}
+
+@media(max-width:260px){
+   
+   
+    .texto{
+       width: 50%;
+       position: relative;
+      
+       line-height: 30px;
+       font-size: large;
+       top: 20%;
+       right: -10%;
+   
+       margin-bottom: 40px;
+   }
+      
+    }
+
+    @media(width:717px){
+   
+   
+      
+
+      .box{
+        background: #bebebe;
+        height: 40vh;
+        width: 40vw;
+    
+    
+    }
+    img{
+        position: relative;
+        top: 20%;
+    }
+    
+    .container{
+        width: 88%;
+        
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 50px;
+      
+        
+    }
+          
+        }
+
+@media(width:1024px){
+
+    .box{
+        background: #bebebe;
+        height: 40vh;
+        width: 40vw;
+    
+    
+    }
+    img{
+        position: relative;
+        top: 20%;
+        left:22%;
+    }
+    
+    .container{
+        width: 88%;
+        
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 50px;
+      
+        
+    }
+}
+    
+
+@media(width:540px){
+    .texto{
+        width: 50%;
+        position: relative;
+       
+        line-height: 30px;
+        font-size: large;
+        top: 30%;
+        right: -10%;
+    }
+
+    .destaques{
+        text-align: center;
+        padding-top: 4%;
+        padding-bottom: 5%;
+        margin-left: auto;
+       margin-right: auto;
+
+    
+        
+    }
+
+    img{
+        position: relative;
+        top: 20%;
+    }
+    
+    .container{
+        width: 88%;
+        
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 50px;
+      
+        
+    }
+
+    .box{
+        background: #bebebe;
+        height: 27vh;
+        width: 86vw;
+        text-align: center;
+    
+    
+    }
+
+}
